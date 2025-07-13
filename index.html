@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UFT-18">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body> 
+        <div class="container">
+ 
+            <div class="box">
+                <input class="searchBar" id="searchBar" placeholder="Enter Place"></input>
+              
+               <div class="toggleColors" id="toggleButton"></div>
+                <div class = "informationBoxes">
+                    <div class="main">
+                        <span id = "country"></span>
+                        <img id = 'weatherEmoji' src=""></img>
+                        <span id = "city"></span>
+                         <span id = "coordinates"></span>
+                    </div>
+                    <div class="cards">
+                        <div class="largeCard">
+                        <div class = "temperatureBox"><span id="temperature"></span>
+                            <button id="celcious">°C</button> 
+                            <button id="fahrenheit">°F</button></div>
+                        <div class="humidityBox">Humidity:<span id="humidity"></span></div>
+                        <div class="pressureBox">Pressure:<span id="pressure"></span></div>
+                        </div>
+                       <div class= "invisibleBox">
+                        <span id="mainWeather"></span>
+                        <span id="descWeather"></span>
+                        <span id="date"></span>
+                        </div>
+                        <div class="card">
+                            <span id="windSpeed"></span>
+                            <span id="windGust"></span>
+                            <span id= "windDeg"></span>
+
+                        </div>
+                      
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+      <script src="script.js"></script>
+        <script src="colorSwitch.js"></script>
+</html>
