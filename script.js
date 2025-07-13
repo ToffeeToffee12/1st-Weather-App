@@ -9,7 +9,7 @@ const temperatureText = document.getElementById("temperature");
 const humidityText = document.getElementById("humidity");
 const pressureText = document.getElementById('pressure');
 
-const apiKey = "fa94b5f21dbc70532dd1e23b62156110";
+const apiKey = "Your API";
 
 const mainWeather = document.getElementById('mainWeather');
 const descWeather = document.getElementById('descWeather');
